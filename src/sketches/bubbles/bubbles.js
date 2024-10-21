@@ -5,7 +5,7 @@ function bubbles(p5) {
     let bubbles = [];
 
     p5.setup = () => {
-        p5.createCanvas(p5.windowWidth-100, p5.windowHeight-100);
+        p5.createCanvas(p5.windowWidth-15, p5.windowHeight-20);
     }
 
     p5.mouseDragged = () => {
